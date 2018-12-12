@@ -1,0 +1,32 @@
+{
+    "name": "veriteworks/editorcustom",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "description": "Magento2 extension for customizing TinyMCE toolbar.",
+    "version": "1.0.0-beta",
+    "authors":[
+        {
+            "name": "Hirokazu Nishi",
+            "email": "nishi@veriteworks.co.jp",
+            "homepage": "http://veriteworks.co.jp/",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "magento/module-backend": "*",
+        "magento/module-cms": "*",
+        "magento/framework": "*",
+        "lib-libxml": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Veriteworks\\EditorCustom\\": ""
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Cms\Model\Wysiwyg\DefaultConfigProvider">
+        <plugin name="modify_tinymce_config" type="Veriteworks\EditorCustom\Plugin\Cms\CustomConfig" />
+    </type>
+</config>
